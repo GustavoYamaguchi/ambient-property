@@ -17,8 +17,8 @@ occupancy states.
 
 ### Driver
 
-Driver is a script testing use-case and prints its actions. It manages 2 dwellings, with different hubs, which 
-devices will pair and modify their statuses, depending on the device. 
+Driver function is a script, that tests use-cases and prints its actions. It manages 2 dwellings, 
+with different hubs, which devices will pair/unpair and modify their statuses, depending on the device. 
 
 
 ## How to run driver function
