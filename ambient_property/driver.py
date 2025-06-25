@@ -24,10 +24,12 @@ def driver():
     print("\n--- Installing Hub 1 ---")
     hub1 = Hub("hub1")
     dwelling1 = manager.dwellings["dwelling1"]
+    dwelling1.occupy()
     dwelling1.connect_hub(hub1)
     print("Installed 'hub1' into dwelling 'dwelling1'")
     hub2 = Hub("hub2")
     dwelling2 = manager.dwellings["dwelling2"]
+    dwelling2.occupy()
     dwelling2.connect_hub(hub2)
     print("Installed 'hub2' into dwelling 'dwelling2'")
 
